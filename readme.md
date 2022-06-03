@@ -34,8 +34,10 @@ __Repositorio local__
 3.2. Crea una rama con tu nombre y la fecha por ejemplo juan03062022) __desde la que editaremos el fichero__
 
 ~~~
-    git branch juan03062022
-    git checkout juan03062022
+    git branch juan03062022-escenario1
+    git branch juan03062022-escenario2
+
+    git checkout juan03062022-escenario1
 ~~~
 
 3.3. Desde tu rama edita el fichero readme.md para que quede la siguiente manera.
@@ -89,3 +91,12 @@ __Escenario 2__
 ~~~ 
     git push --set-upstream origin juan03062022-escenario2
 ~~~
+
+
+__Observaciones__
+
+*En el escenario1*, se crea una rama en el repositorio remoto que tras el merge puede eliminarse (si no hay intención de seguir usándola) o mantenerla (si se quiere usar más adelante en el proyecto).
+La rama *juan03062022-escenario1* existe en ambos repositorios (local y remoto).
+
+*En el escecnario2*, en el repositorio remoto tras el merge solo aparece la rama main en el repositorio remoto.
+La rama *juan03062022-escenario2* solo existe en el repositorio local.
