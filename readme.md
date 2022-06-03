@@ -53,8 +53,8 @@ __Repositorio local__
     git commit 
     <!-- Comentando los cambios realizados en el archivo -->
 ~~~
-
-3.5. Haz un push hacia la nube desde la rama juan03062022
+__Escenario 1__
+3.5. Haz un push hacia la nube desde la rama juan03062022-escenario1
 ~~~ 
     git push --set-upstream origin juan03062022-escenario1
 ~~~
@@ -68,3 +68,17 @@ __Repositorio local__
     git push --set-upstream origin juan03062022-escenario1 
 ~~~
 
+__Escenario 2__
+3.5. Fusiona tu rama con main
+~~~ html
+    <!-- Cambio a la rama donde se realizará la fusión -->
+    git checkout main
+
+    <!-- Trayendo los elementos de la rama juan03062022escenario2 -->
+    git push --set-upstream origin juan03062022-escenario2 
+~~~
+
+3.6. Haz un push hacia la nube desde la rama juan03062022-escenario2
+~~~ 
+    git push --set-upstream origin juan03062022-escenario2
+~~~
