@@ -28,3 +28,27 @@ __Repositorio local__
     git remote add origin https://github.com/juang3/Ejercicios-de-formacion-tareas-git-y-markdown-repo03.git
     git push -u origin main
 ~~~
+
+3.2. Crea una rama con tu nombre y la fecha por ejemplo juan03062022) __desde la que editaremos el fichero__
+
+~~~
+    git branch juan03062022
+    git checkout juan03062022
+~~~
+
+3.3. Desde tu rama edita el fichero readme.md para que quede la siguiente manera.
+![imagen no disponible](./imagen-para-repo03.png "Imagen donde aparece un título denominado Repositorio 03, luego una línea en la que pone 'Mi primer ejercicio con ramas'")
+
+~~~
+    1. Entrar en archivo readme.md
+    2. Eliminar el contenido y se ha añadido:
+       1.  # Repositorio 03
+       2.  Mi primer ejercicio con ramas
+~~~
+
+3.4. Haz un commit en tu rama
+~~~ html
+    git add readme.md
+    git commit 
+    <!-- Comentando los cambios realizados en el archivo -->
+~~~
