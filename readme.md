@@ -55,12 +55,12 @@ __Repositorio local__
 ~~~
 
 3.5. Haz un push hacia la nube desde la rama juan03062022
-~~~
+~~~ 
     git push --set-upstream origin juan03062022-escenario1
 ~~~
 
 3.6. Fusiona tu rama con main
-~~~
+~~~ html
     <!-- Cambio a la rama donde se realizará la fusión -->
     git checkout main
 
