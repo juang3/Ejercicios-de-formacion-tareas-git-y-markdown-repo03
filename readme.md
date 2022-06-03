@@ -37,6 +37,7 @@ __Repositorio local__
 ~~~
 
 3.3. Desde tu rama edita el fichero readme.md para que quede la siguiente manera.
+
 ![imagen no disponible](./imagen-para-repo03.png "Imagen donde aparece un título denominado Repositorio 03, luego una línea en la que pone 'Mi primer ejercicio con ramas'")
 
 ~~~
@@ -52,3 +53,18 @@ __Repositorio local__
     git commit 
     <!-- Comentando los cambios realizados en el archivo -->
 ~~~
+
+3.5. Haz un push hacia la nube desde la rama juan03062022
+~~~
+    git push --set-upstream origin juan03062022-escenario1
+~~~
+
+3.6. Fusiona tu rama con main
+~~~
+    <!-- Cambio a la rama donde se realizará la fusión -->
+    git checkout main
+
+    <!-- Trayendo los elementos de la rama juan03062022escenario1 -->
+    git push --set-upstream origin juan03062022-escenario1 
+~~~
+
